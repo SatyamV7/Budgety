@@ -181,7 +181,7 @@ body {
 }
 
 .add__btn:active {
-    transform: translateY(2px);
+    font-size: 32px;
 }
 
 .add__type:focus,
