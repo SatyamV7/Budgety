@@ -10,14 +10,14 @@ const RUNTIME = 'Dynamic_Cache v1.0.0';
 // A list of local resources we always want to be cached.
 const PRECACHE_URLS = [
     '/',
-    'index.html',
-    'src/app.js',
-    'favicon.ico',
-    'src/style.css',
-    'src/darkmodeJS.js',
-    'assets/images/back.png',
-    'assets/fonts/icons.woff2',
-    'assets/fonts/OpenSans.woff2',
+    '/index.html',
+    '/src/app.js',
+    '/favicon.ico',
+    '/src/style.css',
+    '/src/darkmodeJS.js',
+    '/assets/images/back.png',
+    '/assets/fonts/icons.woff2',
+    '/assets/fonts/OpenSans.woff2',
 ];
 
 // The install handler takes care of precaching the resources we always need.
