@@ -17,19 +17,25 @@
     user-select: none;
 }
 
-.clearfix::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 body {
     color: #555;
     font-family: 'Open Sans' !important;
     font-size: 16px;
     position: relative;
     height: 100vh;
+    width: 100vw;
     font-weight: 400;
+}
+
+div#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .right {
